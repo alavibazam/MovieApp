@@ -11,12 +11,7 @@ class MovieDetail extends StatelessWidget {
     
     return SafeArea(
       child: Scaffold(
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          child: Icon(Icons.bookmark_border),
-        ),
         body: Scaffold(
-          backgroundColor: Colors.grey,
           body: ListView(
             children: <Widget>[
               Padding(
