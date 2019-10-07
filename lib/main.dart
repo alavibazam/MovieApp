@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   bool isDark = false;
   var movies;
   
-  static final apiKey = "400d1db0ec96a230ff11515ef71fc9e1";
+  static final apiKey = "YourAPIKey";
   String url = "http://api.themoviedb.org/3/discover/movie?api_key=$apiKey";
 
   @override
